@@ -5,8 +5,8 @@ export default defineNuxtConfig({
       routes.push(
       {
         path: "/profile/:id",
-        component: "component/profile.vue",
-        name: "projects-id-details"
+        component: "profile.vue",
+        name: "profile"
       });
     },
   },
